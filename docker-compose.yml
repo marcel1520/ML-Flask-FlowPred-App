@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  flow-pred-app:
+    build: .
+    container_name: flow-pred-app
+    ports: 
+      - "5007:5007"
+    restart: unless-stopped

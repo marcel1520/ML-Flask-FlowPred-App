@@ -1,0 +1,15 @@
+.git
+.gitignore
+
+.vscode
+
+MLModel.ipynb
+Crop_recommendation.csv
+
+*.pyc
+__pycache__/
+*.log
+
+# model.pkl
+
+.DS_Store
